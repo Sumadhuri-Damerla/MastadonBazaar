@@ -1,0 +1,35 @@
+
+:root {
+  --mainDark: #000000;
+  --mainYellow: #D4AB39 ;
+  --mainWhite: #ffffff;
+}
+
+.main-footer {
+  background: var(--mainDark);
+  color: var(--mainYellow);
+  margin-top: auto;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  bottom:0;
+  width:100%;
+  position: relative
+}
+
+
+ul li a{
+  color: var(--mainWhite)
+}
+
+.social{
+  color: #3b5998;
+}
+
+.copyright{
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.social-links{
+  padding-top: 2.5rem;
+}

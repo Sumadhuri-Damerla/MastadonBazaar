@@ -1,0 +1,16 @@
+:root {
+    --mainDark: #000000;
+    --mainYellow: #D4AB39 ;
+    --mainWhite: #ffffff;
+  }
+
+#email,#password::placeholder {
+    color: var(--mainYellow);
+    text-align: center;
+}
+
+#email,#password {
+    color: var(--mainYellow);
+    text-align: center;
+    text-weight: bold;
+}
